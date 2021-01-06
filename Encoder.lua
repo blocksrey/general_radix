@@ -1,5 +1,5 @@
 local Radix = require("Radix")
-local uIntChar = require("8ece9cf1a42111b9836c93d19297ec8e")
+local uIntChar = require("8e044120a5c9892c7ec12adba5cc077d")
 --local uIntChar = require("Base-2")
 
 local charUInt = {}
