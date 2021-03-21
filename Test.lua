@@ -7,6 +7,9 @@ for ind = 0, 2^12 - 1 do
 	if uInt ~= ind then
 		print("ERROR: ")
 	end
+end
 
-	print(uInt, unpack(uStr))
+for i = 1, 77000 do
+	io.stdout:write(unpack(Encoder.uIntEncode(i)))
+	print()
 end

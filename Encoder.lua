@@ -1,6 +1,7 @@
 local Radix = require("Radix")
 local uIntChar = require("8e044120a5c9892c7ec12adba5cc077d")
 --local uIntChar = require("Base-2")
+--local uIntChar = require("Base-10")
 
 local charUInt = {}
 for index = 1, #uIntChar do
